@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    margin: 20px auto;
+    text-align: center;
+    background: #24527a;
+    color: #e0ebeb;
+}
+
+.header > .greeting  {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
+
+.header > .option {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.selection {
+    margin-top: 50px;
+    display: flex;
+}
+
+.option-link {
+    text-decoration: none;
+    color: #e0ebeb;
+}
+
+.option-icon {
+    width: 50%;
+}
